@@ -1,6 +1,6 @@
 # Aplicativo Web com Relatório Climático Orquestrado com Airflow
 
-Este é um aplicativo web desenvolvido com Streamlit e cujos dados são alimentados por um pipeline orquestrado com Airflow, responsável por extrair e processar informações climáticas da [Visual Crossing Weather API](https://www.visualcrossing.com/weather-api).
+Este é um aplicativo web desenvolvido com Streamlit e cujos dados são alimentados por um pipeline orquestrado com Airflow, responsável por extrair e processar informações climáticas da API disponibilizada pela [Visual Crossing](https://www.visualcrossing.com/).
 
 ### Pré-requisitos
 
@@ -75,7 +75,7 @@ airflow standalone
 
 ### Integrações
 
-O fluxo de dados é alimentado pela API da **Visual Crossing**, garantindo que as previsões e dados históricos exibidos no dashboard estejam sempre atualizados conforme o cronograma definido no Airflow.
+O fluxo de dados é alimentado pela [Weather API](https://www.visualcrossing.com/weather-api), garantindo que as previsões e dados históricos exibidos no dashboard estejam sempre atualizados conforme o cronograma definido no Airflow.
 
 ### Deploy
 
