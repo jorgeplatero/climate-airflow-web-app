@@ -6,6 +6,12 @@ Este é um aplicativo web desenvolvido com Streamlit e cujos dados são alimenta
 
 Certifique-se de ter o Python 3.11 instalado em seu sistema.
 
+Instale o suporte ao ambiente virtual:
+
+```bash
+sudo apt update && sudo apt install python3.11-venv
+```
+
 ### Instalação
 
 Clone o repositório, crie o ambiente virtual e instale as dependências:
@@ -15,16 +21,13 @@ Clone o repositório, crie o ambiente virtual e instale as dependências:
 git clone https://github.com/jorgeplatero/climate_report_airflow.git
 cd climate_report_airflow
 
-# Criar o ambiente virtual (venv)
+#criar o ambiente virtual
 python -m venv venv
 
-# Ativar o ambiente virtual
-# No Windows:
-venv\Scripts\activate
-# No Linux/Mac:
+#ativar o ambiente virtual
 source venv/bin/activate
 
-# Instalar as dependências
+#instalar as dependências
 pip install -r requirements.txt
 ```
 
@@ -63,13 +66,13 @@ airflow standalone
 
 | Componente | Tecnologia | Versão (Especificada) | Descrição |
 | :--- | :--- | :--- | :--- |
-| **Frontend/App** | **Streamlit** | `1.32.2` | Framework para criação do dashboard interativo. |
-| **Orquestração** | **Apache Airflow** | `3.1.5` | Plataforma para gerenciamento e agendamento de pipelines. |
-| **Análise de Dados** | **Pandas** | `2.2.1` | Manipulação e tratamento de dados estruturados. |
-| **Visualização** | **Plotly** | `5.20.0` | Criação de gráficos dinâmicos e interativos. |
-| **Processamento** | **NumPy** | `1.26.4` | Computação numérica e suporte a arrays. |
-| **Linguagem de Programação** | **Python** | `>=3.11` | Linguagem base do projeto. |
-| **Gerenciamento** | **Venv/Pip** | `-` | Ferramentas padrão para ambientes virtuais e pacotes. |
+| **Frontend/App** | **Streamlit** | `1.32.2` | Framework utilizado para a construção da interface interativa e dashboard |
+| **Orquestração** | **Apache Airflow** | `3.1.5` | Framework para gerenciamento e agendamento de pipelines |
+| **Análise de Dados** | **Pandas** | `2.2.1` | Biblioteca utilizada para manipulação de dataframes e estruturação de tabelas |
+| **Visualização** | **Plotly** | `5.20.0` | Biblioteca para criação de gráficos dinâmicos e interativos |
+| **Processamento** | **NumPy** | `1.26.4` | Biblioteca para computação numérica e suporte a arrays |
+| **Linguagem** | **Python** | `>=3.11` | Linguagem de programação base para o desenvolvimento dos scripts |
+| **Gerenciamento** | **Venv** | `-` | Gerenciador de pacotes e ambientes virtuais utilizado para garantir a reprodutibilidade das dependências do projeto |
 
 ### Integrações
 
@@ -77,6 +80,6 @@ O fluxo de dados é alimentado pela API da **Visual Crossing**, garantindo que a
 
 ### Deploy
 
-O dashboard está disponível publicamente via Streamlit Cloud.
+O dashboard está disponível via Streamlit Cloud.
 
 Link para o aplicativo: [https://climatereportairflow.streamlit.app/](https://climatereportairflow.streamlit.app/)
