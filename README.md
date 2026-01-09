@@ -70,7 +70,6 @@ airflow standalone
 | **Orquestração** | **Apache Airflow** | `3.1.5` | Framework para gerenciamento e agendamento de pipelines |
 | **Análise de Dados** | **Pandas** | `2.2.1` | Biblioteca utilizada para manipulação de dataframes e estruturação de tabelas |
 | **Visualização** | **Plotly** | `5.20.0` | Biblioteca para criação de gráficos dinâmicos e interativos |
-| **Processamento** | **NumPy** | `1.26.4` | Biblioteca para computação numérica e suporte a arrays |
 | **Linguagem** | **Python** | `>=3.11` | Linguagem de programação base para o desenvolvimento dos scripts |
 | **Gerenciamento** | **Venv** | `-` | Gerenciador de pacotes e ambientes virtuais utilizado para garantir a reprodutibilidade das dependências do projeto |
 
