@@ -17,7 +17,7 @@ sudo apt update && sudo apt install python3.11-venv
 Clone o repositório, crie o ambiente virtual e instale as dependências:
 
 ```bash
-# Clonar o repositório
+#clonar o repositório
 git clone https://github.com/jorgeplatero/climate_report_airflow.git
 cd climate_report_airflow
 
