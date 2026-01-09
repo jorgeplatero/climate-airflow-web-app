@@ -70,7 +70,7 @@ airflow standalone
 | **Orquestração** | **Apache Airflow** | `3.1.5` | Framework para gerenciamento e agendamento de pipelines |
 | **Análise de Dados** | **Pandas** | `2.2.1` | Biblioteca utilizada para manipulação de dados |
 | **Visualização** | **Plotly** | `5.20.0` | Biblioteca para criação de gráficos dinâmicos e interativos |
-| **Linguagem** | **Python** | `>=3.11` | Linguagem de programação base para o desenvolvimento dos scripts |
+| **Linguagem** | **Python** | `>=3.11` | Linguagem para desenvolvimento de scripts |
 | **Gerenciamento** | **Venv** | `-` | Gerenciador de ambientes virtuais para isolamento de dependências |
 
 ### Integrações
@@ -81,4 +81,4 @@ O fluxo de dados é alimentado pela [Weather API](https://www.visualcrossing.com
 
 O aplicativo web está disponível via Streamlit Cloud.
 
-Link para o aplicativo: [https://climatereportairflow.streamlit.app/](https://climatereportairflow.streamlit.app/)
+Link para o aplicativo web: [https://climatereportairflow.streamlit.app/](https://climatereportairflow.streamlit.app/)
