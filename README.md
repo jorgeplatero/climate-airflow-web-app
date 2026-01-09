@@ -66,7 +66,7 @@ airflow standalone
 
 | Componente | Tecnologia | Versão | Descrição |
 | :--- | :--- | :--- | :--- |
-| **Frontend/App** | **Streamlit** | `1.32.2` | Framework utilizado para a construção da interface interativa e dashboard |
+| **Frontend/App** | **Streamlit** | `1.32.2` | Framework utilizado para o desenvolvimento do aplicativo web |
 | **Orquestração** | **Apache Airflow** | `3.1.5` | Framework para gerenciamento e agendamento de pipelines |
 | **Análise de Dados** | **Pandas** | `2.2.1` | Biblioteca utilizada para manipulação de dataframes e estruturação de tabelas |
 | **Visualização** | **Plotly** | `5.20.0` | Biblioteca para criação de gráficos dinâmicos e interativos |
