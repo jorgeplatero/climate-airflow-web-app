@@ -64,7 +64,7 @@ airflow standalone
 
 ### Tecnologias
 
-| Componente | Tecnologia | Versão (Especificada) | Descrição |
+| Componente | Tecnologia | Versão | Descrição |
 | :--- | :--- | :--- | :--- |
 | **Frontend/App** | **Streamlit** | `1.32.2` | Framework utilizado para a construção da interface interativa e dashboard |
 | **Orquestração** | **Apache Airflow** | `3.1.5` | Framework para gerenciamento e agendamento de pipelines |
